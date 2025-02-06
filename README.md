@@ -25,40 +25,21 @@ This project provides a Rust-based SPI driver for ESP32 (and similar microcontro
 
 ## Installation & Usage
 
-1. **Install Rust and ESP32 Toolchain**:
+1. **TODO**:
    ```sh
-   rustup install stable
-   rustup target add riscv32imc-unknown-none-elf # For ESP32-C3
-   cargo install cargo-espflash
+   TODO
    ```
 
-2. **Clone the repository**:
+2. **TODO**:
    ```sh
-   git clone https://github.com/yourusername/tpm2-spi-rust
-   cd tpm2-spi-rust
+   TODO
    ```
 
-3. **Build and flash the firmware**:
-   ```sh
-   cargo espflash /dev/ttyUSB0
-   ```
-
-4. **Run the example program**:
-   ```sh
-   cargo run --example tpm_test
-   ```
 
 ## Example Code
 Here's a simple example to send a TPM command over SPI:
 ```rust
-use esp_hal::spi::Spi;
-use embedded_hal::blocking::spi::Transfer;
-
-fn tpm_send_command(spi: &mut Spi, command: &[u8]) -> Result<Vec<u8>, &'static str> {
-    let mut response = vec![0; command.len()];
-    spi.transfer(&mut response, command).map_err(|_| "SPI Transfer Failed")?;
-    Ok(response)
-}
+TODO
 ```
 
 ## Roadmap
