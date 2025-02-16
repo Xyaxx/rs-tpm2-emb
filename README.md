@@ -27,12 +27,14 @@ This project provides a Rust-based SPI driver for ESP32 (and similar microcontro
 
 1. **TODO**:
    ```sh
-   TODO
+   cargo install cargo-generate
+   //https://github.com/esp-rs/esp-template
+   https://www.reddit.com/r/embedded/comments/11hef6p/embedded_rust_tutorials_on_the_esp32c3/
    ```
 
 2. **TODO**:
    ```sh
-   TODO
+   cargo generate esp-rs/esp-template
    ```
 
 
